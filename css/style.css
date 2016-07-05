@@ -2,17 +2,21 @@
 	margin: 0;
 	padding: 0;
 }
-html {
+html{
 	height: 100%;
 }
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
 	display: block;
 }
-body {
-	font: 12px/18px Arial, sans-serif;
+body{
+	font-family: 'Source Sans Pro', sans-serif;
 	height: 100%;
 }
-.wrapper {
+img{
+    max-width: 100%;
+    height: auto;
+}
+.wrapper{
 	width: 100%;
 	min-width: 1000px;
 	min-height: 100%;
@@ -24,26 +28,156 @@ body {
 /* Header
 -----------------------------------------------------------------------------*/
 .header {
-	height: 150px;
-	background: #FFE680;
+	margin: 25px 0 30px;
+    height: 25px;
+	font-weight: 400;
 }
-
-
+.navbar{
+    background: #fff;
+    border: 0;
+}
+.navbar-header{
+    padding-right: 145px;
+}
+.navbar-brand {    
+    font-weight: 700;
+}
+.navbar-brand span {
+    padding: 0 15px;        
+}
+.h-feedback a {
+    background: #ff4f4f;
+    color: #fff;
+    padding: 5px 20px;
+    display: inline-block;
+}
+.navbar-default .navbar-nav>.active>a{
+    color: #fff;
+    background: 3156a3;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #767676;
+}
 /* Middle
 -----------------------------------------------------------------------------*/
 .content {
 	padding: 0 0 100px;
 }
+.welcome{
+    background: url("/img/welcome_bg.png") no-repeat center center;
+    height: 316px;
+}
+.welcome h2{
+    color: #3156a3;
+    font-weight: 600;
+}
+.welcome p{
+    color: #7d7b7b;
+    font-weight: 400;
+}
+.welcome span{
+    padding: 10px 80px;
+    background: #0384ce;
+}
+.welcome a{
+    color: #fff;
+}
+.advantages h2{
+    font-weight: 600;
+}
+.advantages img{
+    float: left;
+}
+.advantages p{
+    font-weight: 400;
+    padding: 5px 10px;
+}
+.anketa{
+    background: url("/img/anketa_bg.png") no-repeat center center;
+}
+.anketa p{
+    font-weight: 400;
+}
+.anketa span{
+    padding: 5px 0;
+    background: #fff;
+}
+.anketa a{
+    color: #3695eb;
+    font-weight: 600;
+}
+.video{
+    background: #ecf4fb;    
+    position: relative;
+    height: 720px;
+}
+.video img{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
 
-
-
-
+}
+.video p{
+    color: #fff;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 430px;
+    bottom: 0;
+    right: 0;    
+}
 /* Footer
 -----------------------------------------------------------------------------*/
 .footer {
-	margin: -100px auto 0;
 	min-width: 1000px;
-	height: 100px;
-	background: #BFF08E;
 	position: relative;
 }
+.footer_contacts{
+    background: #3695eb;
+    font-weight: 600; /* semibold */
+    font-size: 14px;
+}
+.footer_contacts img{
+    float: left;
+    padding: 10px;
+}
+.footer_contacts p, .footer_contacts a {
+    color: #fff;
+}
+.footer_copyright{
+    font-weight: 600;
+    font-size: 12px;    
+}
+/* 
+-----------------------------------------------------------------------------*/
+@media screen and (max-width: 480px){ 
+    .col-xxs-12 { width: 100%; } 
+    .col-xxs-11 { width: 91.6667%; } 
+    .col-xxs-10 { width: 83.3333%; } 
+    .col-xxs-9 { width: 75%; } 
+    .col-xxs-8 { width: 66.6667%; } 
+    .col-xxs-7 { width: 58.3333%; } 
+    .col-xxs-6 { width: 50%; } 
+    .col-xxs-5 { width: 41.6667%; } 
+    .col-xxs-4 { width: 33.3333%; } 
+    .col-xxs-3 { width: 25%; } 
+    .col-xxs-2 { width: 16.6667%; } 
+    .col-xxs-1 { width: 8.3333%; } 
+    .col-xxs-offset-12 { margin-left: 100%; } 
+    .col-xxs-offset-11 { margin-left: 91.6667%; } 
+    .col-xxs-offset-10 { margin-left: 83.3333%; } 
+    .col-xxs-offset-9 { margin-left: 75%; } 
+    .col-xxs-offset-8 { margin-left: 66.6667%; } 
+    .col-xxs-offset-7 { margin-left: 58.3333%; } 
+    .col-xxs-offset-6 { margin-left: 50%; } 
+    .col-xxs-offset-5 { margin-left: 41.6667%; } 
+    .col-xxs-offset-4 { margin-left: 33.3333%; } 
+    .col-xxs-offset-3 { margin-left: 25%; } 
+    .col-xxs-offset-2 { margin-left: 16.6667%; } 
+    .col-xxs-offset-1 { margin-left: 8.3333%; } 
+    .col-xxs-offset-0 { margin-left: 0; } 
+    .visible-xxs { display: block !important; } 
+    .hidden-xxs { display: none !important; } } 

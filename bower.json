@@ -3,6 +3,8 @@
     "description": "Vita-Line",
     "version": "0.0.1",
     "dependencies": {
-	"bootstrap": "latest"
+        "bootstrap": "latest",
+        "html5shiv": "latest",
+        "respond": "latest"
     }
 }

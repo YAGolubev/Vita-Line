@@ -116,7 +116,7 @@ $RECYCLE.BIN/
 .editorcofig
 .idea/
 
-
-/vendor/
-/build/
 /etc/
+/build/
+/vendor/
+/img/images/
